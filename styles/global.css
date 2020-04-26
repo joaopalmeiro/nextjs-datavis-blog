@@ -20,12 +20,18 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: var(--color-black);
   text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(207, 243, 255);
+  box-shadow: rgb(238, 251, 255) 0px -10px 0px inset;
+  transition: box-shadow 160ms ease 0s;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  box-shadow: rgb(207, 243, 255) 0px -1.2em 0px inset;
 }
 
 img {
